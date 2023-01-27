@@ -1,0 +1,113 @@
+body,
+html {
+    height: 100%;
+    margin: 0px;
+    background-color: #2b2d42;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Nav bar styling */
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #8d99ae;
+    border-bottom: 2px solid #d80032;
+}
+
+nav h1 {
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: #edf2f4;
+    font-weight: 700;
+}
+
+nav a:hover {
+    color: #d80032;
+}
+
+/* Seccond Section Styling */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+section {
+    background-color: #2b2d42;
+    color: #edf2f4;
+    margin: 20px;
+    border-radius: .5em;
+    padding: 5px 20px;
+    border: 2px solid #d80032;
+}
+
+/* Form Container Styling */
+.form-container {
+    background-color: #8d99ae;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.last-name {
+    padding-left: 20px;
+}
+
+.phone-number {
+    padding-left: 20px;
+}
+
+#text-box {
+    width: 60vw;
+    height: 5em;
+}
+
+.submit-button {
+    text-align: center;
+    border: 1px solid #2b2d42;
+    border: 2px solid #d80032;
+} 
+
+#submit-btn {
+    border-radius: 1px solid #2b2d42;
+    border-radius: 5em;
+    font-size: medium;
+}
+
+#submit-btn:hover {
+    cursor: pointer;
+    background-color: #d80032;
+    color: #edf2f4;
+    border: 1px solid #2b2d42;
+    border-radius: 5em;
+    transform: scale(1.2);
+}
+
+
+
+/* Footer Styling */
+footer {
+    display: flex;
+    flex-direction: row;
+    ;
+    justify-content: space-around;
+    background-color: #8d99ae;
+    border-top: 2px solid #d80032;
+    padding: 10px 0;
+    font-weight: 550;
+    margin-top: auto;
+}
